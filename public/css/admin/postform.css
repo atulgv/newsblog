@@ -1,0 +1,8 @@
+.postform {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: tan;
+    border-radius: 10px;
+}

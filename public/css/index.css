@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand',sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/** navbar **/
+
+.navbar {
+    height: 8vh;
+    background-color: rgb(170, 97, 237);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 5vw;
+}
+
+/** navbar-title **/
+
+.navbar-title a h1 {
+    display: flex;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.title-letter {
+    font-size: 3vw;
+    margin-left: 1vw;
+}
+
+.title-word {
+    display: flex;
+    font-size: 2vw;
+    align-items: end;
+    margin-bottom: .3vw;
+}
+
+/** navbar-search **/
+
+.navbar-search {
+    width: 70%;
+    height: 6vh;
+}
+
+.navbar-search form {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-search select {
+    height: inherit;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: yellow;
+    font-size: 2.5vh;
+}
+
+.navbar-search input {
+    width: 100%;
+    height: inherit;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: yellow;
+    padding-left: 2vw;
+    font-size: 2.5vh;
+}
+
+/** navbar-login **/
+
+.navbar-login a {
+    font-size: 1.3vw;
+    display: flex;
+}
+
+.navbar-login i {
+    margin-right: .5vw;
+}
+
+
+
+
+
+
+/** panel **/
+
+.panel {
+    height: 5vh;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.panel-categories ul {
+    display: flex;
+    align-items: center;
+}
+
+.panel-categories li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+}
+
+.panel-categories li a {
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+
+.panel-hi-section {
+    display: flex;
+}
+
+.panel-hi {
+    display: flex;
+    height: 5vh;
+    align-items: center;
+}
+
+.panel-hi div {
+    padding-left: .7vw;
+}
+
+.panel-home {
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+.panel-home i {
+    padding-right: .8vw;
+}
+
+/** footer **/
+
+.details {
+    height: auto;
+    /* background-color: tan; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 1vw;
+    background-color: rgb(170, 97, 237);
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+

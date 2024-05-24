@@ -1,0 +1,45 @@
+
+
+.register-error1 {
+    position: absolute;
+    top: 7vw;
+    right: 3vw;
+    width: 25vw;
+    height: 3vw;
+    background-color: #ff0000;
+    color: black;
+    padding: 1vw 2vw;
+}
+
+.register-error2 {
+    position: absolute;
+    top: 10vw;
+    right: 3vw;
+    width: 25vw;
+    height: 3vw;
+    background-color: #ff0000;
+    color: black;
+    padding: 1vw 2vw;
+}
+
+.register-error3 {
+    position: absolute;
+    top: 13vw;
+    right: 3vw;
+    width: 25vw;
+    height: 3vw;
+    background-color: #ff0000;
+    color: black;
+    padding: 1vw 2vw;
+}
+
+.register-error4 {
+    position: absolute;
+    top: 16vw;
+    right: 3vw;
+    width: 25vw;
+    height: 3vw;
+    background-color: #ff0000;
+    color: black;
+    padding: 1vw 2vw;
+}
